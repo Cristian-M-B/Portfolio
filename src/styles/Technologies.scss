@@ -1,0 +1,6 @@
+@import './Constants.scss';
+@import './Mixins.scss';
+
+.technologies {
+    @include primary-container();
+}

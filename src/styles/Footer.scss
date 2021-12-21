@@ -1,0 +1,7 @@
+@import './Constants.scss';
+@import './Mixins.scss';
+
+.footer {
+    @include secondary-container();
+    background-color: $primary-color;
+}

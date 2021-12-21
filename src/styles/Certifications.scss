@@ -1,0 +1,6 @@
+@import './Constants.scss';
+@import './Mixins.scss';
+
+.certifications {
+    @include primary-container();
+}

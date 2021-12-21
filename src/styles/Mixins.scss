@@ -1,0 +1,19 @@
+@import './Constants.scss';
+
+@mixin primary-container() {
+    min-height: 100 - ($unit * 2);
+}
+
+@mixin secondary-container() {
+    height: $unit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin buttons() {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}

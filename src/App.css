@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,10 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  background-image: url('https://st2.depositphotos.com/35773592/43812/i/450/depositphotos_438128892-stock-photo-binary-code-background-digital-abstract.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

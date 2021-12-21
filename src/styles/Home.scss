@@ -1,0 +1,6 @@
+@import './Constants.scss';
+@import './Mixins.scss';
+
+.home {
+    @include primary-container();
+}

@@ -1,0 +1,6 @@
+@import './Constants.scss';
+@import './Mixins.scss';
+
+.contact {
+    @include primary-container();
+}

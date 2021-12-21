@@ -1,0 +1,31 @@
+@import './Constants.scss';
+@import './Mixins.scss';
+
+.nav {
+    @include secondary-container();
+    background-color: $primary-color;
+    button {
+        @include buttons();
+        &:hover {
+            text-shadow: 0 0 10px $shadow-color;
+        }
+    }
+}
+
+.responsive {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+    .responsive {
+        @include secondary-container();
+        background-color: $primary-color;
+        button {
+            @include buttons();
+        }
+    }
+}
+
