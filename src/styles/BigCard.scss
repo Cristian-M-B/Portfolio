@@ -1,0 +1,18 @@
+.big-card {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 2vh;
+    padding: 1vh;
+    img {
+        width: 500px;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .big-card {
+        img {
+            width: 80vw;
+            height: auto;
+        }
+    }
+}

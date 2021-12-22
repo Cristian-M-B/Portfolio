@@ -3,4 +3,15 @@
 
 .technologies {
     @include primary-container();
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
