@@ -6,7 +6,7 @@ export default function BigCard({ image, name, link }) {
         <div className='big-card'>
             <a href={link} target='_blank' rel='noreferrer'><img src={image} alt={name} /></a>
             {name &&
-                <h4>{name}</h4>
+                <h2>{name}</h2>
             }
         </div>
     )
