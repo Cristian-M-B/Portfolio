@@ -16,4 +16,7 @@
     border: none;
     font-weight: bold;
     cursor: pointer;
+    &:hover {
+        text-shadow: 0 0 10px $shadow-color;
+    }
 }

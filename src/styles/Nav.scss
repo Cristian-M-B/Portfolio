@@ -6,9 +6,6 @@
     background-color: $primary-color;
     button {
         @include buttons();
-        &:hover {
-            text-shadow: 0 0 10px $shadow-color;
-        }
     }
 }
 

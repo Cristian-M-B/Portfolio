@@ -3,4 +3,49 @@
 
 .contact {
     @include primary-container();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 75vh;
+    background-color: $primary-color;
+    input, textarea {
+        outline: none;
+        border: none;
+        text-align: left;
+        padding: 1px;
+        color: black;
+        margin-bottom: 2vh;
+    }
+    input {
+        height: 4vh;
+        width: 16vw;
+    }
+    textarea {
+        height: 30vh;
+        width: 24vw;
+    }
+    button {
+        @include buttons();
+        margin-top: 2vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        width: 80vw;
+        input {
+            width: 50vw;
+        }
+        textarea {
+            width: 70vw;
+        }
+    }
 }
