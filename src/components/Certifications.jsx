@@ -12,7 +12,7 @@ export default function Certifications() {
             <div className='certifications'>
                 <div className='images'>
                     {images?.map(certification => {
-                        return <BigCard image={certification?.image} link={certification?.link} />
+                        return <BigCard key={certification?.name} image={certification?.image} link={certification?.link} />
                     })}
                 </div>
             </div>

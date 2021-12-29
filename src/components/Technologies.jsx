@@ -12,7 +12,7 @@ export default function Technologies() {
             <div className='technologies'>
                 <div className='logos'>
                     {technologies?.map(tech => {
-                        return <SmallCard image={tech?.image} name={tech?.name} />
+                        return <SmallCard key={tech?.name} image={tech?.image} name={tech?.name} />
                     })}
                 </div>
             </div>
