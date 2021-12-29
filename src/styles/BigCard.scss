@@ -1,4 +1,8 @@
+@import './Constants.scss';
+
 .big-card {
+    width: 510px;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.4);
     margin: 2vh;
     padding: 1vh;
@@ -7,10 +11,15 @@
         width: 500px;
         height: auto;
     }
+    &:hover {
+        box-shadow: 0 0 10px $shadow-color;
+    }
 }
 
 @media (max-width: 600px) {
     .big-card {
+        width: 84vw;
+        height: auto;
         img {
             width: 80vw;
             height: auto;

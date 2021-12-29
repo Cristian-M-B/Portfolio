@@ -1,9 +1,15 @@
+@import './Constants.scss';
+
 .small-card {
     background-color: rgba(0, 0, 0, 0.4);
     margin: 2vh;
-    padding: 1vh;
+    height: 145px;
+    width: 130px;
     img {
         height: 120px;
         width: 120px;
+    }
+    &:hover {
+        box-shadow: 0 0 10px $shadow-color;
     }
 }

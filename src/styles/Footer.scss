@@ -3,5 +3,16 @@
 
 .footer {
     @include secondary-container();
+    justify-content: center;
     background-color: $primary-color;
+    a {
+        margin-right: 2.5vw;
+        margin-left: 2.5vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        justify-content: space-around;
+    }
 }
