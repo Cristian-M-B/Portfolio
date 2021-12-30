@@ -1,15 +1,15 @@
 @import './Constants.scss';
 
-.big-card {
+.medium-card {
     width: 510px;
-    height: 400px;
+    height: 230px;
     background-color: rgba(0, 0, 0, 0.4);
     margin: 2vh;
     padding: 1vh;
     padding-bottom: 0.5vh;
     img {
         width: 500px;
-        height: 390px;
+        height: 190px;
     }
     &:hover {
         box-shadow: 0 0 10px $shadow-color;
@@ -17,12 +17,12 @@
 }
 
 @media (max-width: 600px) {
-    .big-card {
+    .medium-card {
         width: 84vw;
-        height: 37vh;
+        height: 23vh;
         img {
             width: 80vw;
-            height: 35vh;
+            height: 17vh;
         }
         h2 {
             font-size: 1.17em;

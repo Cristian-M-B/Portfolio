@@ -32,6 +32,7 @@
     textarea {
         height: 30vh;
         width: 24vw;
+        resize: none;
     }
     button {
         @include buttons();
