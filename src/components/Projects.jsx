@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './Nav.jsx';
 import Footer from './Footer.jsx';
-import BigCard from './BigCard.jsx';
+import MediumCard from './MediumCard.jsx';
 import images from '../assets/projects.js';
 import '../styles/Projects.scss';
 
@@ -12,7 +12,7 @@ export default function Projects() {
             <div className='projects'>
                 <div className='images'>
                     {images?.map(project => {
-                        return <BigCard key={project?.name} image={project?.image} name={project?.name} link={project?.link} />
+                        return <MediumCard key={project?.name} image={project?.image} name={project?.name} link={project?.link} />
                     })}
                 </div>
             </div>
