@@ -9,7 +9,7 @@ const logos = [
     },
     {
         name: 'Sass',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2560px-Sass_Logo_Color.svg.png'
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/245px-Sass_Logo_Color.svg.png'
     },
     {
         name: 'Material UI',
