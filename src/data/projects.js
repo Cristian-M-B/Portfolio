@@ -1,5 +1,5 @@
-import elChef from './images/projects/elChef.png';
-import amadeus from './images/projects/amadeus.png';
+import elChef from '../assets/images/projects/elChef.png';
+import amadeus from '../assets/images/projects/amadeus.png';
 
 const images = [
     {

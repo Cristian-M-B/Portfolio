@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './Nav.jsx';
 import Footer from './Footer.jsx';
 import BigCard from './BigCard.jsx';
-import images from '../assets/certifications.js';
+import images from '../data/certifications.js';
 import '../styles/Certifications.scss';
 
 export default function Certifications() {

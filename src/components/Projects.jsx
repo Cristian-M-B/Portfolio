@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './Nav.jsx';
 import Footer from './Footer.jsx';
 import MediumCard from './MediumCard.jsx';
-import images from '../assets/projects.js';
+import images from '../data/projects.js';
 import '../styles/Projects.scss';
 
 export default function Projects() {

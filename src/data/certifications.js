@@ -1,4 +1,4 @@
-import henry from './images/certifications/henry.png';
+import henry from '../assets/images/certifications/henry.png';
 
 const images = [
     {

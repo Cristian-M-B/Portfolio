@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './Nav.jsx';
 import Footer from './Footer.jsx';
 import SmallCard from './SmallCard.jsx';
-import technologies from '../assets/technologies.js';
+import technologies from '../data/technologies.js';
 import '../styles/Technologies.scss';
 
 export default function Technologies() {
