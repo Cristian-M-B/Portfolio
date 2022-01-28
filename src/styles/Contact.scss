@@ -40,6 +40,10 @@
     }
 }
 
+.title {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .form-container {
         width: 80vw;
@@ -49,5 +53,8 @@
         textarea {
             width: 70vw;
         }
+    }
+    .title {
+        @include titles();
     }
 }

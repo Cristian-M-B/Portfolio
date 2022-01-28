@@ -15,3 +15,13 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+.title {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .title {
+        @include titles();
+    }
+}

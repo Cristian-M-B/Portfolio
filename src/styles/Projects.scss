@@ -14,8 +14,6 @@
 
 @media (max-width: 600px) {
     .title {
-        display: inline-block;
-        margin-top: 3vh;
-        border-bottom: 2px solid white;
+        @include titles();
     }
 }

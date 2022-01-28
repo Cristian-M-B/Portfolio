@@ -20,3 +20,9 @@
         text-shadow: 0 0 10px $shadow-color;
     }
 }
+
+@mixin titles {
+    display: inline-block;
+    margin-top: 3vh;
+    border-bottom: 2px solid white;
+}
