@@ -9,10 +9,11 @@ export default function Technologies() {
     return (
         <>
             <Nav />
+            <h2 className='title'>Technologies</h2>
             <div className='technologies'>
                 <div className='logos'>
-                    {technologies?.map(tech => {
-                        return <SmallCard key={tech?.name} image={tech?.image} name={tech?.name} />
+                    {technologies?.map(technology => {
+                        return <SmallCard key={technology?.name} image={technology?.image} name={technology?.name} />
                     })}
                 </div>
             </div>

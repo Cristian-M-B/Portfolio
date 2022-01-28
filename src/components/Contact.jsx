@@ -43,6 +43,7 @@ export default function Contact() {
     return (
         <>
             <Nav />
+            <h2 className='title'>Contact</h2>
             <div className='contact'>
                 <form ref={form} onSubmit={sendEmail} className='form-container'>
                     <label htmlFor='name'>Name *</label>

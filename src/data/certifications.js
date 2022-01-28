@@ -1,6 +1,6 @@
 import henry from '../assets/images/certifications/henry.png';
 
-const images = [
+const certifications = [
     {
         name: 'Henry Certification',
         image: henry,
@@ -8,4 +8,4 @@ const images = [
     }
 ]
 
-export default images;
+export default certifications;

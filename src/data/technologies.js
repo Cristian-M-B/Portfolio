@@ -1,4 +1,4 @@
-const logos = [
+const technologies = [
     {
         name: 'HTML',
         image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/others/html.svg'
@@ -45,4 +45,4 @@ const logos = [
     }
 ]
 
-export default logos;
+export default technologies;
